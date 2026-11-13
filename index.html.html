@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#101b13">
+<title>Convite Intergaláctico • Miguel 10 anos</title>
+<style>
+:root{--green:#8cff35;--lime:#c5ff69;--dark:#101b13;--panel:#18271c;--muted:#b7c6b8}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;font-family:Arial,Helvetica,sans-serif;color:#f7fff5;background:radial-gradient(circle at 15% 15%,#315b25 0,transparent 28%),radial-gradient(circle at 90% 80%,#1b4d32 0,transparent 30%),linear-gradient(145deg,#080e0a,#14251a 60%,#080e0a);display:flex;align-items:center;justify-content:center;padding:28px 14px;overflow-x:hidden}
+body:before,body:after{content:"";position:fixed;width:260px;height:260px;border:1px solid #8cff3522;border-radius:50%;pointer-events:none}
+body:before{top:-130px;right:-80px;box-shadow:0 0 0 22px #8cff3508,0 0 0 48px #8cff3506}
+body:after{bottom:-150px;left:-100px;box-shadow:0 0 0 22px #8cff3508,0 0 0 48px #8cff3506}
+.wrap{width:min(760px,100%);position:relative}
+.card{background:linear-gradient(160deg,#1b2c20f5,#101b14f5);border:1px solid #9bff4c55;border-radius:28px;overflow:hidden;box-shadow:0 24px 80px #0009,0 0 35px #79ff2520}
+.hero{text-align:center;padding:38px 24px 30px;position:relative;background:linear-gradient(135deg,#203c20,#111d16 70%);border-bottom:1px solid #9bff4c44}
+.hero:after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(120deg,transparent 0 32px,#b4ff3810 33px 34px);pointer-events:none}
+.tag{display:inline-block;padding:7px 13px;border:1px solid #9cff58;border-radius:30px;color:var(--lime);font-size:11px;font-weight:800;letter-spacing:2px;text-transform:uppercase}
+.omni{width:92px;height:92px;border:7px solid #d9e8d4;border-radius:50%;margin:19px auto 14px;background:radial-gradient(circle,#baff62 0 22%,#3c9b24 23% 42%,#101a13 43% 61%,#8cff35 62% 70%,#243326 71%);box-shadow:0 0 0 7px #8cff3522,0 0 28px #8cff3588;position:relative}
+.omni:before{content:"";position:absolute;left:50%;top:-12px;transform:translateX(-50%);width:28px;height:12px;background:#d9e8d4;border-radius:5px 5px 0 0}
+.omni:after{content:"";position:absolute;left:50%;bottom:-12px;transform:translateX(-50%);width:28px;height:12px;background:#d9e8d4;border-radius:0 0 5px 5px}
+h1{font-size:clamp(36px,8vw,64px);line-height:.95;margin:8px 0;color:white;text-transform:uppercase;letter-spacing:-2px;text-shadow:3px 4px 0 #397b24}
+h1 span{color:var(--green)}
+.subtitle{font-size:17px;color:#d7e7d5;margin:13px 0 0}
+.age{font-size:14px;letter-spacing:4px;color:var(--lime);font-weight:900;margin-top:14px}
+.content{padding:28px clamp(18px,5vw,42px) 36px}
+.intro{text-align:center;color:#d9e6d8;line-height:1.6;margin:0 auto 24px;max-width:520px}
+.details{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:22px 0 28px}
+.detail{background:#0d170f;border:1px solid #8cff3533;border-radius:15px;padding:14px 10px;text-align:center}
+.detail .emoji{font-size:21px;display:block;margin-bottom:7px}
+.detail small{display:block;color:#9fb19e;font-size:10px;text-transform:uppercase;letter-spacing:1.3px;margin-bottom:5px}
+.detail strong{font-size:13px;line-height:1.4;overflow-wrap:anywhere}
+h2{font-size:19px;text-align:center;margin:30px 0 8px}
+.form-intro{text-align:center;color:var(--muted);font-size:13px;margin:0 0 20px}
+form{display:grid;gap:15px}
+label{font-size:13px;font-weight:700;color:#e7f4e5;display:block;margin-bottom:7px}
+input,select{width:100%;padding:14px 15px;border-radius:12px;border:1px solid #58745b;background:#0b140e;color:#fff;font-size:15px;outline:none}
+input:focus,select:focus{border-color:var(--green);box-shadow:0 0 0 3px #8cff3520}
+input::placeholder{color:#829184}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+button{border:0;border-radius:14px;background:linear-gradient(100deg,#9bff3e,#d0ff75);color:#10200e;font-size:15px;font-weight:900;padding:16px;cursor:pointer;box-shadow:0 8px 22px #8cff3528;transition:.2s}
+button:hover{transform:translateY(-2px);filter:brightness(1.06)}
+.note{font-size:11px;line-height:1.5;color:#98aa99;text-align:center;margin:0}
+#feedback{display:none;text-align:center;padding:16px;border:1px solid #8cff3580;background:#8cff3512;border-radius:13px;color:#dfffca;line-height:1.5}
+.footer{text-align:center;color:#8fa18f;font-size:11px;padding:0 15px 22px}
+@media(max-width:560px){.details{grid-template-columns:1fr}.detail{display:flex;align-items:center;gap:12px;text-align:left;padding:11px 14px}.detail .emoji{margin:0}.detail small{margin:0 0 3px}.grid2{grid-template-columns:1fr}.hero{padding-top:30px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+ <main class="card">
+  <header class="hero">
+   <div class="tag">⚡ Convocação especial ⚡</div>
+   <div class="omni" aria-label="Símbolo verde inspirado em um relógio alienígena"></div>
+   <div class="age">MISSÃO NÍVEL 10</div>
+   <h1>Miguel <span>10</span></h1>
+   <p class="subtitle">Uma aventura de outro planeta está chegando!</p>
+  </header>
+  <section class="content">
+   <p class="intro">Você foi convocado para comemorar os 10 anos do Miguel! Prepare-se para uma festa cheia de diversão, desafios e energia alienígena. Sua presença faz parte dessa missão!</p>
+   <div class="details">
+    <div class="detail"><span class="emoji">📅</span><div><small>Data</small><strong>DD / MM / AAAA</strong></div></div>
+    <div class="detail"><span class="emoji">⏰</span><div><small>Horário</small><strong>00h00</strong></div></div>
+    <div class="detail"><span class="emoji">📍</span><div><small>Local</small><strong>Endereço da festa</strong></div></div>
+   </div>
+   <h2>Confirme sua presença</h2>
+   <p class="form-intro">Preencha os dados do participante para confirmar a missão.</p>
+   <form id="rsvp">
+    <div>
+     <label for="nome">Nome do participante</label>
+     <input id="nome" name="nome" type="text" placeholder="Digite seu nome completo" required maxlength="80">
+    </div>
+    <div class="grid2">
+     <div>
+      <label for="acompanhantes">Quantidade de acompanhantes</label>
+      <select id="acompanhantes" name="acompanhantes">
+       <option value="0">Nenhum</option><option value="1">1 acompanhante</option><option value="2">2 acompanhantes</option><option value="3">3 acompanhantes</option><option value="4">4 acompanhantes</option><option value="5">5 acompanhantes</option>
+      </select>
+     </div>
+     <div>
+      <label for="codigo">Código do convite</label>
+      <input id="codigo" name="codigo" type="text" placeholder="Ex.: MIGUEL10" required maxlength="24">
+     </div>
+    </div>
+    <button type="submit">🚀 CONFIRMAR PRESENÇA</button>
+    <p class="note">Ao confirmar, os dados ficam salvos neste navegador. Para receber as respostas de outras pessoas, conecte o formulário a um serviço ou servidor.</p>
+    <div id="feedback" role="status"></div>
+   </form>
+  </section>
+  <div class="footer">Prepare-se para uma festa extraordinária • Miguel 10 anos</div>
+ </main>
+</div>
+<script>
+const form = document.getElementById('rsvp');
+const feedback = document.getElementById('feedback');
+form.addEventListener('submit', function(event) {
+  event.preventDefault();
+  const participante = {
+    nome: document.getElementById('nome').value.trim(),
+    acompanhantes: Number(document.getElementById('acompanhantes').value),
+    codigo: document.getElementById('codigo').value.trim(),
+    confirmadoEm: new Date().toLocaleString('pt-BR')
+  };
+  if (!participante.nome || !participante.codigo) return;
+  const respostas = JSON.parse(localStorage.getItem('confirmacoesMiguel10') || '[]');
+  respostas.push(participante);
+  localStorage.setItem('confirmacoesMiguel10', JSON.stringify(respostas));
+  feedback.style.display = 'block';
+  feedback.innerHTML = '✅ <strong>Missão confirmada, ' + escapar(participante.nome) + '!</strong><br>Esperamos você nessa aventura!';
+  form.reset();
+});
+function escapar(texto) {
+  return texto.replace(/[&<>"']/g, caractere => ({
+    '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#039;'
+  }[caractere]));
+}
+</script>
+</body>
+</html>
